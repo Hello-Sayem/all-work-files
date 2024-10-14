@@ -1,0 +1,198 @@
+<html>
+  <head>
+    <title>Pmayent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <div class="max-w-7xl mx-auto p-4">
+      <h1 class="text-center text-2xl font-semibold mb-6">Computers</h1>
+      <div class="flex flex-col lg:flex-row">
+        <div class="w-full lg:w-2/3 bg-white p-6 rounded-lg shadow-md">
+          <div class="mb-6">
+            <h2 class="text-lg font-semibold mb-2">Contact</h2>
+            <div class="flex justify-between items-center mb-4">
+              <input
+                class="w-full p-2 border border-gray-300 rounded"
+                placeholder="Email"
+                type="email"
+              />
+              <a class="text-blue-600 ml-4" href="#"> Log in </a>
+            </div>
+            <div class="flex items-center mb-4">
+              <input class="mr-2" id="news-offers" type="checkbox" />
+              <label class="text-sm" for="news-offers">
+                Email me with news and offers
+              </label>
+            </div>
+          </div>
+          <div class="mb-6">
+            <h2 class="text-lg font-semibold mb-2">Delivery</h2>
+            <div class="mb-4">
+              <label class="block text-sm mb-1" for="country">
+                Country/Region
+              </label>
+              <select
+                class="w-full p-2 border border-gray-300 rounded"
+                id="country"
+              >
+                <option>Bangladesh</option>
+              </select>
+            </div>
+            <div class="flex mb-4">
+              <input
+                class="w-1/2 p-2 border border-gray-300 rounded mr-2"
+                placeholder="First name (optional)"
+                type="text"
+              />
+              <input
+                class="w-1/2 p-2 border border-gray-300 rounded"
+                placeholder="Last name"
+                type="text"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                class="w-full p-2 border border-gray-300 rounded"
+                placeholder="Company (optional)"
+                type="text"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                class="w-full p-2 border border-gray-300 rounded"
+                placeholder="Address"
+                type="text"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                class="w-full p-2 border border-gray-300 rounded"
+                placeholder="Apartment, suite, etc. (optional)"
+                type="text"
+              />
+            </div>
+            <div class="flex mb-4">
+              <input
+                class="w-1/2 p-2 border border-gray-300 rounded mr-2"
+                placeholder="City"
+                type="text"
+              />
+              <input
+                class="w-1/2 p-2 border border-gray-300 rounded"
+                placeholder="Postal code (optional)"
+                type="text"
+              />
+            </div>
+            <div class="flex items-center mb-4">
+              <input
+                class="w-full p-2 border border-gray-300 rounded"
+                placeholder="Phone (optional)"
+                type="text"
+              />
+              <i class="fas fa-info-circle text-gray-400 ml-2"> </i>
+            </div>
+            <div class="flex items-center mb-4">
+              <input class="mr-2" id="save-info" type="checkbox" />
+              <label class="text-sm" for="save-info">
+                Save this information for next time
+              </label>
+            </div>
+          </div>
+          <div class="mb-6">
+            <h2 class="text-lg font-semibold mb-2">Shipping method</h2>
+            <div
+              class="p-4 border border-blue-500 bg-blue-100 rounded flex justify-between items-center"
+            >
+              <span> International Shipping </span>
+              <span> $20.00 </span>
+            </div>
+          </div>
+          <div class="mb-6">
+            <h2 class="text-lg font-semibold mb-2">Payment</h2>
+            <p class="text-sm text-gray-600 mb-4">
+              All transactions are secure and encrypted.
+            </p>
+            <div class="mb-4">
+              <label class="block text-sm mb-1" for="payment-method">
+                Credit card
+              </label>
+            </div>
+            <div class="mb-4">
+              <input
+                class="w-full p-2 border border-gray-300 rounded"
+                placeholder="Card number"
+                type="text"
+              />
+            </div>
+            <div class="flex mb-4">
+              <input
+                class="w-1/2 p-2 border border-gray-300 rounded mr-2"
+                placeholder="Expiration date (MM / YY)"
+                type="text"
+              />
+              <input
+                class="w-1/2 p-2 border border-gray-300 rounded"
+                placeholder="Security code"
+                type="text"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                class="w-full p-2 border border-gray-300 rounded"
+                placeholder="Name on card"
+                type="text"
+              />
+            </div>
+            <div class="flex items-center mb-4">
+              <input class="mr-2" id="billing-address" type="checkbox" />
+              <label class="text-sm" for="billing-address">
+                Use shipping address as billing address
+              </label>
+            </div>
+          </div>
+          <button class="w-full bg-blue-500 text-white p-3 rounded">
+            Pay now
+          </button>
+        </div>
+        <div
+          class="w-full lg:w-1/3 bg-gray-50 p-6 rounded-lg shadow-md lg:ml-6 mt-6 lg:mt-0"
+        >
+          <div class="flex items-center mb-4">
+            <img
+              alt="Image of Apple G5 PowerMac 2GHz Desktop Computer"
+              class="w-16 h-16 rounded mr-4"
+              height="60"
+              src="https://storage.googleapis.com/a1aa/image/ip11BxZPab51BFbYqHg7ZjMXaZS4DSA1Xn6kVfe4peeIbBZOB.jpg"
+              width="60"
+            />
+            <div>
+              <h3 class="text-sm">Apple G5 PowerMac 2GHz Desktop Computer</h3>
+              <p class="text-sm">$420.00</p>
+            </div>
+          </div>
+          <div class="border-t border-gray-300 pt-4">
+            <div class="flex justify-between mb-2">
+              <span> Subtotal </span>
+              <span> $420.00 </span>
+            </div>
+            <div class="flex justify-between mb-2">
+              <span> Shipping </span>
+              <span> $20.00 </span>
+            </div>
+            <div class="flex justify-between font-semibold text-lg">
+              <span> Total </span>
+              <span> USD $440.00 </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="text-center text-sm text-gray-500 mt-6">
+        All rights reserved Hello-Sayem
+      </footer>
+    </div>
+  </body>
+</html>
